@@ -318,6 +318,10 @@ ul{
 .feedback-inner img{
 	padding-bottom: 10px;
 }
+.feedback .bor{
+    border-right: 1px solid #eaeaea;
+    border-left: 1px solid #eaeaea;
+}
 .feedback-inner h5{
     font-weight: 700;
     font-size: 20px;
