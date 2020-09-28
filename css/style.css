@@ -1,0 +1,463 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+h1, h2, h3, h4, h5{
+	font-family: 'Libre Franklin', sans-serif;
+}
+
+a, a:hover{
+	text-decoration: none ;
+}
+
+ul{
+	margin-bottom: 0px;
+}
+
+/**********************Psd code starts*******************/
+
+/**********************header code starts*******************/
+.header-section{
+	width: 100%;
+	background: url("../images/banner.png") center top no-repeat;
+	background-size: cover;
+}
+.menu-section .bg-light{
+	background: transparent !important;
+}
+
+.menu-section .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active,
+ .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #6239e7;
+    font-size: 14px;
+    font-weight: 700;
+    background: url("../images/underline.png") center bottom no-repeat;
+    background-size: contain;
+}
+.menu-section .navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-weight: 600;
+    margin-right: 15px;
+}
+.menu-section .navbar-light .navbar-nav .nav-link:hover{
+	color: #6239e7;
+	background: url("../images/underline.png") center bottom no-repeat;
+    background-size: contain;
+}
+.menu-section .form-inline .nav-link{
+	color: black;
+    font-weight: 600;
+}
+.menu-section .form-inline .nav-link:hover{
+	color: #6239e7;
+	background: url("../images/underline.png") center bottom no-repeat;
+    background-size: contain;
+}
+.menu-section .form-inline .btn-outline-success {
+    color: #fff;
+    background-image: linear-gradient(to right, #511de5 , #1084fa);
+    border-radius: 30px;
+    padding: 6px 40px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 15px;
+    transition: 1s;
+    border: 0px;
+}
+.menu-section .form-inline .btn-outline-success:hover{
+	color: #511de5;
+	background: transparent;
+	border: 1px solid #511de5;
+}
+.banner-section{
+	width: 100%;
+	padding: 100px 0px;
+}
+.banner-inner{
+	width: 100%;
+	text-align: right;
+	padding: 160px 0px;
+}
+.banner-inner h1{
+    font-size: 41px;
+    line-height: 51px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+.banner-inner span{
+ color: #511de5;
+}
+.banner-inner a{
+    background: #f2f2f2;
+    border-radius: 30px;
+    padding: 9px 35px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #061113;
+}
+.banner-inner a:hover{
+	color: #fff;
+    background-image: linear-gradient(to right, #511de5 , #1084fa);
+}
+.banner-inner .fa{
+    margin-left: 12px;
+}
+/**********************header code ends*******************/
+/**********************highlight code starts*******************/
+.highlight {
+    width: 100%;
+    background: url(../images/Highlightarea.png) center top no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 60px 0px;
+}
+.highlight-inner{
+	width: 100%;
+	position: relative;
+}
+.highlight-inner h2{
+    color: #fff;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 0px;
+    font-weight: 900;
+    padding-left: 120px
+}
+.highlight-inner img{
+	position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+/**********************highlight code ends*******************/
+/**********************features code starts*******************/
+.features{
+	width: 100%;
+	padding:100px 0px 40px;
+}
+.feature-inner{
+	width: 100%;
+	background: url("../images/featureimage.png") bottom right no-repeat;
+	background-size: contain;
+	padding: 100px;
+}
+.feature-inner .feature-content{
+	padding-bottom: 100px;
+    padding-left: 40px;
+}
+.feature-inner h1{
+	font-weight: 900;
+    padding-bottom: 20px;
+}
+.feature-inner p{
+	font-size: 14px;
+	line-height: 24px;
+	margin-top: 0;
+    padding-bottom: 50px;
+}
+.feature-inner span{
+    font-size: 65px;
+    font-weight: 900;
+	background-color: blue;
+    background-image: linear-gradient(to right, #511de5, #0e88fb);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+.feature-inner .para{
+	font-weight: 600;
+	padding-right: 20px;
+}
+/**********************features code ends*******************/
+/**********************client logo code starts*******************/
+.client-logo{
+	width: 100%;
+}
+.logo-inner{
+	width: 100%;
+    background: url(../images/clientlogo.png) center center no-repeat;
+    background-size: contain;
+    padding: 25px 0px 80px;
+}
+/**********************client logo code ends*******************/
+/**********************intro quote code starts*******************/
+.intro-quote{
+	width: 100%;
+	background: url("../images/rightanglebg.png") center top no-repeat;
+	background-size: cover;
+	padding: 200px 0px;
+}
+.intro-bg{
+	width: 100%;
+    background: url(../images/ellipse.png) center center no-repeat;
+    background-size: contain;
+    padding: 128px 0px;
+    text-align: left;
+}
+.intro-bg .intro-bg-content{
+    padding-left: 120px;
+    color: #fff;
+}
+.intro-bg .intro-bg-content h6{
+	font-weight: 700;
+}
+.intro-heading{
+	width: 100%;
+}
+.intro-heading .intro-heading-content{
+	padding: 17% 5%;
+}
+.intro-heading h1{
+	font-size: 41px;
+    line-height: 51px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+.intro-heading a{
+	background: #f2f2f2;
+    border-radius: 30px;
+    padding: 9px 35px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #061113;
+}
+.intro-heading a:hover{
+	color: #fff;
+    background-image: linear-gradient(to right, #511de5 , #1084fa);
+}
+.intro-heading .fa{
+    margin-left: 12px;
+}
+
+/**********************intro quote code ends*******************/
+/**********************Efficiency code starts*******************/
+.efficiency{
+	width: 100%
+    padding: 90px 0px;
+}
+.efficiency-inner{
+	width: 100%;
+}
+.efficiency-inner h1{
+	font-size: 41px;
+    line-height: 51px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+.efficiency-inner p{
+	font-size: 14px;
+	line-height: 24px;
+	padding-bottom: 25px;
+}
+.efficiency-inner ul{
+	display: block;
+}
+.efficiency-inner ul li{
+	list-style: none;
+	padding-bottom: 20px;
+    font-weight: 900;
+}
+.efficiency-inner ul img{
+	margin-right: 20px;
+}
+.efficiency-inner a{
+    background-image: linear-gradient(to right, #511de5 , #1084fa);
+    border-radius: 30px;
+    padding: 9px 35px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+}
+.efficiency-inner a:hover{
+	color: #000;
+    background:transparent;
+    border: 1px solid #511de5;
+    transition: .5s;
+}
+.efficiency-inner .fa{
+    margin-left: 12px;
+}
+.efficiency-inner .button{
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+/**********************Efficiency code ends**********/
+/**********************Feedback code starts**********/
+.feedback{
+	width: 100%;
+	padding: 100px 0px;
+}
+.feedback .title{
+	width: 100%;
+	text-align: center;
+}
+.feedback .title h1{
+	font-size: 41px;
+    line-height: 51px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+.feedback .title p{
+	font-size: 14px;
+	line-height: 24px;
+	padding-bottom: 40px;
+}
+.feedback-inner{
+	width: 100%;
+	text-align: center;
+	padding-top: 50px 0px;
+}
+.feedback-inner img{
+	padding-bottom: 10px;
+}
+.feedback-inner h5{
+    font-weight: 700;
+    font-size: 20px;
+}
+.feedback-inner p{
+    padding-top: 5px;
+    margin-bottom: 0px;
+}
+/**********************Feedback code ends**********/
+/**********************inspirational qoutes code starts**********/
+.inspirational{
+	width: 100%;
+	text-align: center;
+	padding: 50px 0px 80px;
+}
+.inspirational .title h1{
+	font-size: 50px;
+    line-height: 60px;
+    font-weight: 900;
+    padding-bottom: 100px;
+}
+.inspirational .card-deck .card{
+	border-radius: 0px;
+	opacity: .4;
+}
+.inspirational .card-deck .card:hover{
+	transition: .8s;
+	cursor: no-drop;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+				0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	opacity: 1;			
+}
+.inspirational .card-deck .card .quote{
+	background: url("../images/comma.png") center top no-repeat;
+	background-size: cover;
+	font-weight: 700;
+    padding: 105px 0px 85px;
+}
+.inspirational .card-deck .card .qoute-text:hover{
+	background-color: blue;
+    background-image: linear-gradient(to right, #511de5, #0e88fb);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    transition: .8s;
+}
+.inspirational .card-deck .card .quote h6{
+	font-weight: 700;
+}
+.inspirational .card-deck .card hr{
+    width: 91%;
+    margin: 0px auto;
+    background: #eaeaea;
+}
+.inspirational .card-deck .card .card-body img{
+	padding-bottom: 20px;
+}
+.inspirational .card-deck .card .card-body h6{
+	font-weight: 800;
+}
+.inspirational .card-deck .card .card-body p{
+	font-weight: 500;
+}
+/**********************inspirational qoutes code ends**********/
+/**********************footer code starts**********/
+.footer-section{
+	width: 100%;
+	background: url("../images/fbg.png") center bottom no-repeat;
+	background-size: cover;
+	padding: 120px 0px 60px;
+}
+.faq{
+	width: 100%;
+	padding: 90px;
+	background: #fff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+				0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.faq .title{
+	text-align: center;
+}
+.faq .title h1{
+	font-size: 50px;
+    line-height: 60px;
+    font-weight: 900;
+    padding-bottom: 100px;
+}
+.faq .card{
+	border: 0px;
+}
+.faq .card-header {
+    padding: 0px; 
+    margin-bottom: 0; 
+    background: none;
+    border-bottom: none; 
+}
+.faq .card-body {
+    padding: 1.25rem 1rem;
+}
+.faq .btn-link {
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+}
+.faq .btn-link:hover {
+    color: #0000ff;
+}
+.faq .btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.faq .collapse{
+	border-bottom: 2px solid  #eaeaea;
+}
+.bottom-footer{
+	width: 100%;
+	padding:140px 0px 60px;
+	color: #fff;
+}
+.bottom-footer ul{
+	display: block;
+}
+.bottom-footer ul li{
+	display: inline-block;
+	list-style: none;
+}
+.bottom-footer ul li a{
+	text-decoration: none;
+	color: #fff;
+	margin-right: 20px;
+	font-weight: 600;
+}
+.bottom-footer ul li a:hover{
+	color: #000;
+}
+.bottom-footer h6{
+	font-weight: 900;
+	text-align: right;
+}
+
+/**********************footer code ends**********/
